@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Первая программа в PyCharm</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="headLogo">info for Python</header>
+<div style="font-family: Arial; font-size: 20px; padding: 15px">В прошлой теме было описано создание простейшего скрипта на языке Python. Для создания скрипта использовался текстовый редактор. В моем случае это был Notepad++. Но есть и другой способ создания программ, который представляет использование различных интегрированных сред разработки или IDE.
+
+  <div style="padding: 15px"> предоставляют нам текстовый редактор для набора кода, но в отличие от стандартных текстовых редакторов, IDE также обеспечивает полноценную подсветку синтаксиса, автодополнение или интеллектуальную подсказку кода, возможность тут же выполнить созданный скрипт, а также многое другое.</div>
+
+  <div style="padding: 15px"> Python можно использовать различные среды разработки, но одной из самых популярных из них является среда PyCharm, созданная компанией JetBrains. Эта среда динамично развивается, постоянно обновляется и доступна для наиболее распространенных операционных систем - Windows, MacOS, Linux.
+
+  <div style="padding: 15px"> Правда, она имеет одно важное ограничение. А именно она доступна в двух основных вариантах: платный выпуск Professional и бесплатный Community. Многие базовые возможности доступны и в бесплатном выпуске Community. В то же время ряд возможностей, например, веб-разработка, доступны только в платном Professional.
+
+  В нашем случае воспользуемся бесплатным выпуском Community. Для этого перейдем на страницу загрузки и загрузим установочный файл PyCharm Community.
+    <div style="background: url(https://metanit.com/python/tutorial/pics/pycharm8.png);width: 690px;height: 450px;padding: 15px"></div>
+    <div style="padding: 15px">После загрузки выполним его установку.</div>
+    <div style="background: url(https://metanit.com/python/tutorial/pics/pycharm9.png);width: 450px;height: 350px;padding: 15px"></div>
+    <div style="padding: 15px">После завершения установки запустим программу. При первом запуске открывается начальное окно:</div>
+    <div style="background: url(https://metanit.com/python/tutorial/pics/pycharm1.png);width: 750px;height: 550px;padding: 15px"></div>
+    <div style="padding: 15px">Создадим проект и для этого выберем пункт New Project.
+
+      Далее нам откроется окно для настройки проекта. В поле Location необходимо указать путь к проекту. В моем случае проект будет помещаться в папку HelloApp. Собственно название папки и будет названием проекта.</div>
+  <div style="background: url(https://metanit.com/python/tutorial/pics/pycharm2.png);width: 710px;height: 430px;padding: 15px"></div>
+    <div style="padding: 15px">Кроме пути к проекту все остальные настройки оставим по умолчанию и нажмем на кнопку Create для создания проекта.
+
+      После этого будет создан пустой проект:</div>
+    <div style="background: url(https://metanit.com/python/tutorial/pics/pycharm3.png);width: 680px;height: 430px;padding: 15px"></div>
+    <div style="padding: 15px">В центре среды будет открыт файл main.py с некоторым содержимым по умолчанию.
+
+      Теперь создадим простейшую программу. Для этого изменим код файла main.py следующим образом:</div>
+
+      <div style="padding: 15px"> # Из трех данных чисел выбрать наименьшее и наибольшее.</div>
+      lst = []
+      for i in range(0, 3): #for(i=0;i>3;i++)
+      ele = int(input())
+      lst.append(ele)
+      if i == 0:
+      min = ele;
+      max = ele;
+      if min > ele:
+      min = ele
+      if max < ele:
+      max = ele
+      print(lst)
+      print("минимальное: ", min)
+      print("максимальное: ", max)
+    </div>
+    <div style="padding: 15px">Также для запуска можно перейти в меню Run и там нажать на подпункт Run 'main')</div>
+
+     <div style="padding: 15px">этого внизу IDE отобразится окно вывода, где надо будет ввести имя и где после этого будет выведено приветствие:</div>
+    <div style="background: url(https://metanit.com/python/tutorial/pics/pycharm7.png);width: 610px;height: 430px;padding: 15px">
+  </div>
+  </div>
+</div>
+</body>
+</html>

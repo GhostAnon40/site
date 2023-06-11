@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:https="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Введение</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="headLogo">info for Python</header>
+<div class="fontFamily">
+<div class="bilet1">Для обращения к интерпретатору Python на MacOS применяется команда python3. Напримерб после установки интерпретатора проверим его версию командой
+    <img src="https://metanit.com/python/tutorial/pics/macos2.png">
+   <div class="first_prog">Первая программа
+   </div>
+    <div class="firstProgTxt" style="padding: 15px">
+        Сначала определим где-нибудь на жестком диске для скриптов папку python. А в этой папке создадим новый текстовый файл, который назовем hello.py. По умолчанию файлы с кодом на языке Python, как правило, имеют расширение py.
+
+        Откроем этот файл в любом текстовом редакторе и добавим в него следующий код:
+
+        1  name = input("Your name: ")
+        2 print("Hello, ", name)
+
+    </div>
+    <div class="otvet1">
+        Скрипт состоит из двух строк. Первая строка с помощью функции input() ожидает ввода пользователем своего имени. Введенное имя затем попадает в переменную name.
+
+        Вторая строка с помощью функции print() выводит приветствие вместе с введенным именем.
+        Например:
+        1Даны три целых числа. Возвести в квадрат отрицательные числа и в третью степень — положительные (число 0 не изменять).
+        lst = []
+        for i in range(0, 3):
+        ele = int(input())
+        if ele < 0:
+        ele*=ele
+        elif ele > 0:
+        ele=ele*ele*ele
+        lst.append(ele)
+        print(lst
+<div class="finish1">Теперь запустим командную строку/терминал и с помощью команды cd перейдем к папке, где находится файл с исходным кодом hello.py (например, в моем случае это папка
+    <div style="padding: 15px">
+        "/Users/eugene/Documents/python").
+
+    cd /Users/eugene/Documents/python
+        <div style="padding: 15px">
+    Далее для выполнения скрипта hello.py передадим его интерпретатору python:
+
+    python3 hello.py
+        </div>
+    </div>
+    <div style="padding: 15px" >
+    В итоге программа выведет приглашение к вводу имени, а затем приветствие .
+        <div style="background: url(https://metanit.com/python/tutorial/pics/macos5.png);width: 900px; height: 250px"></div>
+    </div>
+</div>
+    </div>
+</div>
+</div>
+</body>
+</html>

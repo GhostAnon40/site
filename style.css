@@ -1,5 +1,6 @@
 *{
-    
+
+    background-color: #f7f7fa;
 }
 header{
     display: flex;
@@ -7,8 +8,8 @@ header{
     font-size: 35px;
     width: 100%;
     height: 20%;
-    background-color:#444;
-    color: aquamarine;
+    background-color:#f0f0f0;
+    color: #444444;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     margin-bottom: 20px;
 }
@@ -19,6 +20,7 @@ header{
     padding: 1rem 1.5rem;
     text-decoration: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 .android{
     display: inline-block;
@@ -27,6 +29,7 @@ header{
     padding: 1rem 1.5rem;
     text-decoration: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 .c{
     display: inline-block;
@@ -121,29 +124,91 @@ header{
     font-size: 30px;
 }
 .moreInfo{
-    font-family: cursive;
+    text-align: center;
+    width: 50%;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";;
     font-size: 25px;
 }
 .inetBtn{
+    background-color:#f0f0f0;
+    margin-left: auto;
+    display: flex;
+    /* justify-content: left; */
+    padding: 10px;
 }
 .tg{
     border-radius: 20px;
-    width: 40px;
+    width: 50px;
     background: url(https://play-lh.googleusercontent.com/ZU9cSsyIJZo6Oy7HTHiEPwZg0m2Crep-d5ZrfajqtsH-qgUXSqKpNA2FpPDTn-7qA5Q);
     background-size: cover;
-    height: 40px;
+    height: 50px;
 }
 .facebook{
     border-radius: 20px;
-    width: 40px;
+    width: 50px;
     background: url(https://play-lh.googleusercontent.com/5pZMqQYClc5McEjaISPkvhF8pDmlbLqraTMwk1eeqTlnUSjVxPCq-MItIrJPJGe7xW4);
     background-size: cover;
-    height: 40px;
+    height: 50px;
 }
 .inst{
     border-radius: 20px;
-    width: 40px;
+    width: 50px;
     background: url(https://balletacademy.edu.kz/wp-content/uploads/2019/05/inst-logo.png);
     background-size: cover;
-    height: 40px;
+    height: 50px;
+}
+button{
+
+    display: inline-block;
+    background:  #8C959D;
+    color: white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.razdeli{
+    padding: 20px;
+}
+.oRazdele{
+    font-family: fantasy;
+    font-size: 35px;
+}
+.razdel{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";;
+    font-size: 25px;
+}
+a {
+    padding: 10px;
+    text-align: center;
+    font-family: emoji;
+    display: grid;
+    justify-content: center;
+}
+.bilet1{
+background-size: auto;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";;
+    font-size: 20px;
+}
+.first_prog{
+    font-family:fantasy;
+    font-size: 25px;
+    text-align: center;
+}
+.firstProgTxt{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";;
+    font-size: 20px;
+}
+.otvet1{
+padding: 15px;
+}
+.finish1{
+    padding: 15px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";;
+    font-size: 20px;
+}
+.fontFamily{
+
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 20px;
 }
