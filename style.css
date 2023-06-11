@@ -1,0 +1,149 @@
+*{
+    
+}
+header{
+    display: flex;
+    padding: 15px;
+    font-size: 35px;
+    width: 100%;
+    height: 20%;
+    background-color:#444;
+    color: aquamarine;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    margin-bottom: 20px;
+}
+.python{
+    display: inline-block;
+    background:  #8C959D;
+    color: white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.android{
+    display: inline-block;
+    background:  #8C959D;
+    color: white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.c{
+    display: inline-block;
+    background:  #8C959D;
+    color: white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.c\#{
+    display: inline-block;
+    background:  #8C959D;
+    color: white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.c\+\+{
+    display: inline-block;
+    background:  #8C959D;
+    color: white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.java{
+    display: inline-block;
+    background:  #8C959D;
+    color: white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.web{
+    display: inline-block;
+    background:  #8C959D;
+    color: white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.go{
+    display: inline-block;
+    background:  #8C959D;
+    color: white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.kot{
+    display: inline-block;
+    background:  #8C959D;
+    color: white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.mongo{
+    display: inline-block;
+    background:  #8C959D;
+    color: white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.php{
+    display: inline-block;
+    background:  #8C959D;
+    color: white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.rust{
+    display: inline-block;
+    background:  #8C959D;
+    color: white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.sql{
+    display: inline-block;
+    background:  #8C959D;
+    color: white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.info{
+    font-family: fantasy;
+    font-size: 30px;
+}
+.moreInfo{
+    font-family: cursive;
+    font-size: 25px;
+}
+.inetBtn{
+}
+.tg{
+    border-radius: 20px;
+    width: 40px;
+    background: url(https://play-lh.googleusercontent.com/ZU9cSsyIJZo6Oy7HTHiEPwZg0m2Crep-d5ZrfajqtsH-qgUXSqKpNA2FpPDTn-7qA5Q);
+    background-size: cover;
+    height: 40px;
+}
+.facebook{
+    border-radius: 20px;
+    width: 40px;
+    background: url(https://play-lh.googleusercontent.com/5pZMqQYClc5McEjaISPkvhF8pDmlbLqraTMwk1eeqTlnUSjVxPCq-MItIrJPJGe7xW4);
+    background-size: cover;
+    height: 40px;
+}
+.inst{
+    border-radius: 20px;
+    width: 40px;
+    background: url(https://balletacademy.edu.kz/wp-content/uploads/2019/05/inst-logo.png);
+    background-size: cover;
+    height: 40px;
+}
